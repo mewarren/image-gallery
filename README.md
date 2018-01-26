@@ -37,4 +37,4 @@ Include the answers to the following in your submission:
 * Responsive image strategies applied (2 points)
 
 ## Stretch goal
-* Explore Cloudinary's [transform features](https://cloudinary.com/documentation/image_transformation_reference) in your application.
+* Explore Cloudinary's [transform features](https://cloudinary.com/documentation/image_transformation_reference) and apply to your application.
