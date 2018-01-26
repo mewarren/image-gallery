@@ -3,10 +3,10 @@ Lab: Image Gallery
 
 Pick a topic 
 
-* baseball :baseball: 
-* surfing :surfer: 
-* kittens :cat2: 
-* guitars :guitar: 
+* :baseball: baseball  
+* :surfer: surfing  
+* :cat2: kittens  
+* :guitar: guitars  
 * etc.
 
 and create a themed image gallery app based on today's lecture.
