@@ -6,10 +6,12 @@ Pick a topic (baseball, surfing, kittens, guitars...?) and create a themed image
 ## Requirements
 * Make it responsive, using a combination of CSS Grid and Flexbox.
 * Follow the Webpack component and router architecture we've used on other labs.
-* Sketch your responsive layout **and** app component structure before developing.
 * Choose appropriate UI and navigational patterns based on your app's functionality and goals.
 * Your app should write and remove image data using [Firebase](https://firebase.google.com/).
 * [Cloudinary](https://cloudinary.com/) should be used to serve appropriate responsive images.
+* Sketch your responsive layout **and** app component structure before developing.
+
+Note that the sketch process doesn't have to end once development begins. If you get stuck, sketch or whiteboard until the answer is clear.
 
 ## Submission Instructions
 Submit pull request URL in Canvas, and include a .zip of your sketches.
