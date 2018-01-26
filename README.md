@@ -1,7 +1,15 @@
 Lab: Image Gallery
 ===
 
-Pick a topic (baseball :baseball: surfing :surfer: kittens :cat2: guitars :guitar: etc.) and create a themed image gallery app based on today's lecture.
+Pick a topic 
+
+* baseball :baseball: 
+* surfing :surfer: 
+* kittens :cat2: 
+* guitars :guitar: 
+* etc.
+
+and create a themed image gallery app based on today's lecture.
 
 ## Requirements
 * Make it responsive, using a combination of CSS Grid and Flexbox.
