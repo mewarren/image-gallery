@@ -7,7 +7,7 @@ Pick a topic
 * :surfer: surfing  
 * :cat2: kittens  
 * :guitar: guitars  
-* etc.
+* (etc.)
 
 and create a themed image gallery app based on today's lecture.
 
