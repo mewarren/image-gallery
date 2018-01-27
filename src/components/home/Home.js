@@ -1,13 +1,12 @@
-import html from './content.html';
-import './content.css';
 import Template from '../Template';
+import html from './home.html';
 
 const template = new Template(html);
 
-export default class Content{
-  
-  render(){
+export default class Home {
+
+  render() {
     return template.clone();
   }
-  
+
 }
