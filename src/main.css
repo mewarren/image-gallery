@@ -3,6 +3,9 @@ html {height: 100%;}
 body {
   min-height: 100%;
   max-width: 100vw;
+  min-width: 400px;
+  background-color: rgb(240,240,240);
+  color: rgb(50,50,50);
 }
     
 img {
