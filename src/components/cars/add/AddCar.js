@@ -13,7 +13,7 @@ export default class AddCar {
   }
 
   handleSubmit(form) {
-    this.error.textContent = '';
+    // this.error.textContent = '';
 
     const data = new FormData(form);
     const car = {};

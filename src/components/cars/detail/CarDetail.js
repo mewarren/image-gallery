@@ -23,8 +23,8 @@ export default class CarDetail {
     this.onValue = this.car.on('value', data => {
       const car = data.val();
       header.textContent = `${car.make} ${car.model}`;
-      make.textContent = car.make;  
-      model.textContent = car.model;  
+      // make.textContent = car.make;  
+      // model.textContent = car.model;  
     });
 
     this.images = new Images(this.key);
