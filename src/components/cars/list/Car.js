@@ -2,7 +2,7 @@ import Template from '../../Template';
 import html from './car.html';
 import './car.css';
 import { db } from '../../../services/firebase';
-// import { getUrl } from '../../../services/cloudinary';
+import { getUrl } from '../../../services/cloudinary';
 
 const template = new Template(html);
 const carsImages = db.ref('car-images');
@@ -27,9 +27,9 @@ export default class Car {
 
     this.update(this.car);
     
-    // this.onValue = this.carImages.on('child_added', data => {
-    //   this.image.src = getUrl(data.val(), 'e_sepia:80,c_scale,w_75');
-    // });
+    this.onValue = this.carImages.on('child_added', data => {
+      this.image.src = getUrl(data.val(), 'c_fill,e_grayscale,h_250,w_350');
+    });
 
     return dom;
   }

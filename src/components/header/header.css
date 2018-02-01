@@ -1,5 +1,9 @@
-/* h1 {
-  margin-left: 2rem;
-  font-size: 2rem;
-  color: rgb(245,245,245);
-} */
+@import '../variables.css';
+
+h1 {
+  max-width: 300px;
+  font: 300 2rem $crimson;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  padding-left: 1rem;
+}

@@ -2,8 +2,8 @@ import Template from '../Template';
 import html from './cars.html';
 import './cars.css';
 import AddCar from './add/AddCar';
-import CarList from './list/CarList';
 import CarDetail from './detail/CarDetail';
+import CarList from './list/CarList';
 import { removeChildren } from '../dom';
 
 const template = new Template(html);

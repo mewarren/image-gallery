@@ -1,0 +1,28 @@
+@import '../../variables.css';
+
+ul.car-list {
+  width: 100%;
+  display: grid;
+  grid-template-areas: "ul";
+  margin-bottom: 0;  
+}
+
+#add-link { 
+  margin: 3rem 1rem;
+  width: 115px;
+  height: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#add-link:hover {background-color: $light;}
+
+#add-link > a {
+  text-decoration: none;
+  color: $dark;
+  font: 300 1.2rem $crimson;
+  text-transform: uppercase;
+  margin: 0 auto;
+
+}

@@ -1,19 +1,13 @@
+@import './components/variables.css';
+
 html {height: 100%;}
 
 body {
   min-height: 100%;
-  max-width: 100vw;
-  min-width: 400px;
-  background-color: rgb(240,240,240);
-  color: rgb(50,50,50);
+  /* min-width: 400px; */
+  background-color: $lighter;
 }
     
-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
 .clip {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
