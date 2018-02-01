@@ -28,7 +28,7 @@ export default class Car {
     this.update(this.car);
     
     this.onValue = this.carImages.on('child_added', data => {
-      this.image.src = getUrl(data.val(), '');
+      this.image.src = getUrl(data.val(), 'c_fill,e_grayscale,h_250,w_350');
     });
 
     return dom;

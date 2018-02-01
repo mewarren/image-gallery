@@ -1,0 +1,16 @@
+$darker: rgb(50,50,50);
+$dark: rgb(100,100,100);
+$light: rgb(200,200,200);
+$lighter: rgb(240,240,240);
+
+$maxWidth: 1200px;
+$contentPadding: .5rem 1rem;
+
+/* ----------- FONTS */
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700|Open+Sans+Condensed:300,700');
+
+$crimson: 'Crimson Text', serif;
+$open: 'Open Sans Condensed', sans-serif;
+
+
+
